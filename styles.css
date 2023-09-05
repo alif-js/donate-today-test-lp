@@ -79,3 +79,105 @@
     border: solid;
     border-color: #FF5959;
 }
+
+/* donate plan section */
+
+.donate-plan{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+.reason-cards{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 1300px;
+    padding-bottom: 50px;
+}
+.reason-card-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+.reason-cards-content-1{
+    background-color: #edf5f6;
+    width: 400px;
+    padding: 30px 10px;
+}
+.reason-cards-content-2{
+    background-color: #ffeeee;
+    width: 400px;
+    padding: 30px 10px;
+}
+.reason-cards-content-3{
+    background-color: #fff4d6;
+    width: 400px;
+    padding: 30px 10px;
+}
+
+/* info section */
+
+.info-section-1{
+    text-align: center;
+    margin: 0 auto;
+    padding: 100px 50px 0 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.info-section-content{
+    max-width: 550px;
+    max-height: 550px;
+    padding-top: 100px;
+}
+.info-section-title{
+    font-weight: bold;
+    font-size: 45px;
+}
+.info-section-description{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.info-section-image>img{
+    width: 550px;
+    height: 550px;
+    border-radius: 15px;
+}
+
+/* updates section */
+
+.updates{
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+form input[type=email]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #d9d9d9;
+    border-radius: 5px 0 0 5px;
+    border: none;
+  }
+form input[type=submit]{
+    padding: 12px 20px;
+    margin: 8px 0;
+    background-color: #ff5959;
+    border-radius: 0 5px 5px 0;
+    border: none;
+}
+form input[type=submit]:hover{
+    background-color: #FF8000;
+}
+
+/* footer section */
+
+footer{
+    max-height: 150px;
+    background-color: #707070;
+    margin-bottom: 0;
+    padding: 50px 0 50px 0;
+}
+footer p{
+    /* font-weight: bold; */
+    color: white;
+    text-align: center;
+}
